@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Dita Jaya — layanan sedot WC dan kebersihan septic tank." />
+  <title>Dita Jaya | Jasa Sedot WC</title>
+  <style>
+    :root { --green:#137a4b; --dark:#123b2b; --mint:#eaf7ef; --gold:#f4c95d; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:Arial, sans-serif; color:#24332b; line-height:1.6; }
+    header { background:var(--green); color:white; padding:16px 7%; display:flex; justify-content:space-between; align-items:center; gap:16px; }
+    .brand { font-weight:800; font-size:1.35rem; letter-spacing:1px; }
+    nav a { color:white; text-decoration:none; margin-left:18px; font-weight:600; }
+    .hero { background:linear-gradient(120deg,rgba(10,62,39,.92),rgba(19,122,75,.82)), radial-gradient(circle at top right,#8bd4a6,#137a4b); color:white; padding:85px 7%; }
+    .hero-inner { max-width:760px; }
+    .badge { display:inline-block; background:rgba(255,255,255,.16); border:1px solid rgba(255,255,255,.35); border-radius:30px; padding:6px 14px; font-size:.9rem; }
+    h1 { font-size:clamp(2.2rem,6vw,4rem); line-height:1.12; margin:18px 0; }
+    .hero p { font-size:1.1rem; max-width:620px; }
+    .button { display:inline-block; background:var(--gold); color:#263322; padding:12px 22px; border-radius:9px; text-decoration:none; font-weight:800; margin-top:14px; }
+    section { padding:58px 7%; }
+    .section-title { text-align:center; color:var(--dark); margin:0 0 10px; font-size:2rem; }
+    .intro { text-align:center; max-width:680px; margin:0 auto 30px; color:#58675f; }
+    .cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); gap:18px; max-width:1050px; margin:auto; }
+    .card { background:white; border:1px solid #e3eee7; border-radius:14px; padding:24px; box-shadow:0 8px 24px rgba(15,70,42,.06); }
+    .icon { font-size:2rem; }
+    .card h3 { color:var(--green); margin:8px 0; }
+    .soft { background:var(--mint); }
+    .about { max-width:850px; margin:auto; text-align:center; }
+    .contact { background:var(--dark); color:white; text-align:center; }
+    .contact .section-title { color:white; }
+    .contact p { max-width:650px; margin:10px auto; }
+    footer { text-align:center; padding:18px; background:#0c2c20; color:#d9eee2; font-size:.9rem; }
+    @media(max-width:650px) { header { flex-direction:column; } nav a { margin:0 8px; font-size:.9rem; } .hero { padding:65px 7%; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">DITA JAYA</div>
+    <nav>
+      <a href="#beranda">Beranda</a>
+      <a href="#layanan">Layanan</a>
+      <a href="#tentang">Tentang</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="beranda">
+      <div class="hero-inner">
+        <span class="badge">Jasa Sedot WC</span>
+        <h1>Solusi WC dan septic tank untuk rumah Anda.</h1>
+        <p>Dita Jaya melayani jasa sedot WC dan perawatan septic tank di Gresik, Surabaya, Sidoarjo, Mojokerto, dan sekitarnya. Hubungi kami untuk informasi dan pemesanan.</p>
+        <a class="button" href="#kontak">Hubungi Kami</a>
+      </div>
+    </section>
+
+    <section id="layanan">
+      <h2 class="section-title">Layanan Kami</h2>
+      <p class="intro">Layanan untuk membantu menjaga kebersihan dan kenyamanan lingkungan Anda.</p>
+      <div class="cards">
+        <article class="card"><div class="icon">🚛</div><h3>Sedot WC</h3><p>Membantu mengatasi septic tank yang penuh dan membutuhkan penyedotan.</p></article>
+        <article class="card"><div class="icon">🧰</div><h3>Perawatan Septic Tank</h3><p>Layanan untuk membantu menjaga fungsi septic tank agar tetap terawat.</p></article>
+        <article class="card"><div class="icon">🏠</div><h3>Layanan Rumah & Usaha</h3><p>Dapat ditanyakan untuk kebutuhan rumah, tempat usaha, maupun bangunan lainnya.</p></article>
+      </div>
+    </section>
+
+    <section class="soft" id="tentang">
+      <div class="about">
+        <h2 class="section-title">Tentang Dita Jaya</h2>
+        <p>Dita Jaya merupakan layanan jasa sedot WC yang mengutamakan pelayanan yang ramah dan membantu kebutuhan pelanggan. Silakan hubungi kami untuk menanyakan ketersediaan layanan, wilayah jangkauan, dan biaya.</p>
+      </div>
+    </section>
+
+    <section class="contact" id="kontak">
+      <h2 class="section-title">Butuh Informasi atau Layanan?</h2>
+      <p>Hubungi Dita Jaya melalui WhatsApp untuk konsultasi, informasi layanan, dan pemesanan.</p>
+      <a class="button" href="https://wa.me/6285715194887" target="_blank" rel="noopener">Chat WhatsApp</a>
+      <p style="font-size:.9rem;margin-top:18px;">Wilayah layanan: Gresik, Surabaya, Sidoarjo, Mojokerto, dan sekitarnya.</p>
+    </section>
+  </main>
+
+  <footer>© 2026 Dita Jaya. Semua hak dilindungi.</footer>
+</body>
+</html>
